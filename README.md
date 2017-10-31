@@ -1,5 +1,5 @@
-# Lyft
 
+<<<<<<< HEAD
 * **Track:** _Common Core_
 * **Curso:** _Creando tu primer sitio web interactivo_
 * **Unidad:** _Maquetado web con HTML & CSS_
@@ -29,3 +29,5 @@ El reto consiste en replicar el sitio de LYFT, este será el resultado a lograr:
     * https://www.youtube.com/watch?v=fLSmUWOYpKw
     * https://www.youtube.com/watch?v=V7j8Aqxmbs8
     * https://www.youtube.com/watch?v=xj2VWLV0xCU
+=======
+>>>>>>> 7eb5f90c2317ae217553d980ee8c07127ada487f
