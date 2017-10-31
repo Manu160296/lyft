@@ -1,4 +1,164 @@
 /*
  * Estilos de tu proyecto
  */
- 
+ .text-upper-case{
+   text-transform: uppercase;
+ }
+ body{
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   box-sizing: border-box;
+ }
+ .principal{
+   background-image: url(../assets/images/hero.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 50px;
+   height: 590px;
+ }
+
+header figure{
+  margin: 35px 83px ;
+  display: inline-block;
+}
+header figure img{
+  width: 66px;
+}
+header ul{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  bottom: 17px;
+  left: 504px;
+  color: #ffffff;
+}
+header li{
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+.user-data {
+  background-color:#ffffff;
+  display: inline-block;
+  width: 561px;
+  float: right;
+  padding: 44px 0 40px 76px;
+}
+
+.user-data h1{
+  font-size: 2.5em;
+  color: #352384;
+  font-weight: 500;
+  margin: 19px 0;
+  line-height: 1;
+}
+.user-data p {
+  color: #352384;
+  font-weight: 500;
+  font-size: 0.9em;
+
+}
+.user-data form{
+  margin :10px;
+}
+
+form.data-form p{
+  display: inline-block;
+}
+form p input,[name $= sign-up]{
+  border-style: none;
+  border-bottom: 1px solid #352384;
+  height: 47px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+[name $= number]{
+  width: 440px;
+}
+[name ^= become]{
+  background-color: #ff00bf;
+  border-style: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 167px;
+}
+[name ^= sign ] {
+  background-color: #ffffff;
+  border-style: none;
+  color: #9aa4b6;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 168px;
+  text-decoration: underline;
+}
+.bottom-lines p{
+  color: #94a0aa;
+  font-size: 0.6em;
+  font-weight: 300;
+}
+
+.lyft-description{
+  background-image: linear-gradient(#76278F, #2B1E66);
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.box-description{
+  display: inline-block;
+}
+.description{
+  color: #ffffff;
+  padding: 20px;
+  display: block;
+  margin: 30px 30px 50px 85px;
+  width: 460px;
+}
+.description h2{
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.lyft-description figure{
+display: inline-block;
+margin: 0 100px;
+}
+.lyft-description img{
+  width: 470px;
+}
+
+.watch-video{
+  padding: 0;
+  height: 500px;
+}
+.watch-video div{
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  position: relative;
+  bottom: 280px;
+  left: 50px;
+}
+.watch-video span{
+  display: block;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.watch-video h2{
+  font-size: 1.8em;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px
+}
+.watch-video p{
+  display: inline-block;
+}
+iframe.right{
+  position: relative;
+  left: 123px;
+}
+iframe.left{
+  right: 999px;
+}
