@@ -1,4 +1,52 @@
 /*
  * Estilos de tu proyecto
  */
- 
+ body{
+   margin: 0;
+   padding: 0;
+ }
+ footer{
+   outline: 1px solid orange;
+   background-color: #333447;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   height: 540px;
+ }
+ .box-column{
+   outline: 1px solid green;
+   margin: 10px 20px;
+   padding-top: 80px
+ }
+
+ .box-column div{
+   outline: 1px solid white;
+   display: inline-block;
+   text-align: left;
+   margin: 64px 70px;
+   line-height: 2;
+
+ }
+  .first-column ul{
+   padding-left:0;
+ }
+ .second-column ul{
+  padding-left:0;
+}
+.third-column ul{
+ padding-left:0;
+}
+ .box-column li{
+   list-style: none;
+
+ }
+.images-footer{
+  width: 127px;
+  height: 50px;
+  margin: 20px;
+  vertical-align: middle;
+
+}
+div.icons{
+  outline: 1px solid red;
+}
